@@ -2,30 +2,47 @@
 主题：【{EVENT.ID}】号告警: {EVENT.NAME}
 信息：
 告警时间：【{EVENT.DATE} {EVENT.TIME}】
+
 告警主机：【{HOST.NAME}】
+
 主机地址：【{HOST.IP}】
+
 告警信息：【{TRIGGER.NAME}】
+
 当前状态：【{ITEM.NAME}：{ITEM.KEY}={ITEM.VALUE}】
+
 告警ID：【{EVENT.ID}】
 
 2.恢复信息模板
 主题：【{EVENT.ID}】号告警已恢复
 信息：
 恢复方式：【人工恢复】
+
 恢复时间：【{EVENT.RECOVERY.DATE} {EVENT.RECOVERY.TIME}】
+
 恢复主机：【{HOST.NAME}】
+
 告警时长：【{EVENT.AGE}】
+
 主机地址：【{HOST.IP}】
+
 恢复的告警信息：【{TRIGGER.NAME}】
+
 当前状态：【{ITEM.NAME}：{ITEM.KEY}={ITEM.VALUE}】
 
 3.自动恢复信息模板
 主题：监控平台检测到【{EVENT.ID}】号告警，已自动执行远程命令恢复服务！
 信息：
 恢复方式：【自动恢复】
+
 恢复时间：【{EVENT.RECOVERY.DATE} {EVENT.RECOVERY.TIME}】
+
 恢复主机：【{HOST.NAME}】
+
 告警时长：【{EVENT.AGE}】
+
 主机地址：【{HOST.IP}】
+
 恢复的告警信息：【{TRIGGER.NAME}】
+
 当前状态：【{ITEM.NAME}：{ITEM.KEY}={ITEM.VALUE}】

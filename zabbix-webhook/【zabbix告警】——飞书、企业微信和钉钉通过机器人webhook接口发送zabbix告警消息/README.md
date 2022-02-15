@@ -1,4 +1,4 @@
-<h2 align = "center">通过企业微信、飞书和飞书的webhook机器人发送zabbix告警消息到群聊中</h3>
+<h2 align = "center">通过企业微信、钉钉和飞书的webhook机器人发送zabbix告警消息到群聊中</h3>
 脚本用途：(**发送zabbix告警消息到群聊中**)
 
 1.需要更改3个地方：
